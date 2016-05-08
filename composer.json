@@ -1,0 +1,21 @@
+{
+    "name": "wildlifechorus/songkick-laravel",
+    "description": "Songkick API client built on top of Guzzle 6 for Laravel 5",
+    "keywords": ["Songkick", "php", "api", "guzzle", "laravel"],
+    "license": "THE BEER-WARE LICENSE (Revision 42)",
+    "authors": [
+        {
+            "name": "Tiago Pereira",
+            "homepage": "https://github.com/wildlifechorus/songkick-laravel"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Songkick\\": ["src"]
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "php": ">= 5.6"
+}
