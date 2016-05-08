@@ -37,8 +37,7 @@ php artisan vendor:publish --provider="Songkick\ServiceProvider"
 ## Client
 
 ```php
-// Get API Key here: http://www.songkick.com/developer
-$client = new SongkickClient(apiKey);
+$client = new SongkickClient();
 ```
 
 ## Search
