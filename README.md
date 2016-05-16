@@ -1,4 +1,5 @@
 # Songkick API client built on top of Guzzle 6 for Laravel 5
+[![Code Climate](https://codeclimate.com/github/wildlifechorus/songkick-laravel/badges/gpa.svg)](https://codeclimate.com/github/wildlifechorus/songkick-laravel) [![Test Coverage](https://codeclimate.com/github/wildlifechorus/songkick-laravel/badges/coverage.svg)](https://codeclimate.com/github/wildlifechorus/songkick-laravel/coverage)
 
 I made this for **[Tradiio](https://tradiio.com)**, but I think more people could use it :)
 
