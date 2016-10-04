@@ -117,7 +117,7 @@ $client->details->venueDetails(venueId, page, perPage);
 $client->setlists->eventSetlists(eventId, page, perPage);
 ```
 
-## Copyleft and License :poop:
+## Copyleft and License
 
 Copyleft 2016
 
