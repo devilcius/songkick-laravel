@@ -119,6 +119,6 @@ $client->setlists->eventSetlists(eventId, page, perPage);
 
 ## Copyleft and License :poop:
 
-Copyleft 2016 (No Fucks are given to what you do with this code)
+Copyleft 2016
 
 This project is licensed under the **["THE BEER-WARE LICENSE" (Revision 42)](http://www.cs.trincoll.edu/hfoss/wiki/Chris_Fei:_Beerware_License)**.
