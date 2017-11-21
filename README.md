@@ -54,7 +54,7 @@ $client->search->searchEvent(artistName, lat, long, ipAddress, page, perPage);
 
 // http://www.songkick.com/developer/location-search
 // Search Location
-$client->search->searchLocation(lat, long, ipAddress, page, perPage);
+$client->search->searchLocation(lat, long, ipAddress, query, page, perPage);
 
 // http://www.songkick.com/developer/venue-search
 // Search Venue

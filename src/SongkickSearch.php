@@ -28,12 +28,14 @@ class SongkickSearch {
     return $this->client->get("search/artists.json?query=$artistName&page=$page&per_page=$perPage");
   }
 
-  public function searchLocation($lat, $long, $ipAddress = '', $page = 1, $perPage = 50)
+  public function searchLocation($lat, $long, $ipAddress = '', $query = '', $page = 1, $perPage = 50)
   {
     if (!empty($lat) && !empty($long)) {
       return $this->client->get("search/locations.json?location=geo:$lat,$long&page=$page&per_page=$perPage");
     } else if (!empty($ipAddress)) {
       return $this->client->get("search/locations.json?location=ip:$ipAddress&page=$page&per_page=$perPage");
+    } else if (!empty($query)) {
+      return $this->client->get("search/locations.json?query=$query&page=$page&per_page=$perPage");  
     }
   }
 
